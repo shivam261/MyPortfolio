@@ -1,168 +1,141 @@
 export const personalInfo = {
-  name: "Rishikesh S",
-  location: "Coimbatore, India",
-  email: "rkesh2003@gmail.com",
-  github: "https://github.com/rishikesh2003",
-  linkedin: "https://www.linkedin.com/in/rishikeshs/",
+  name: "Shivam Tripathi",
+  location: "Bhopal, India",
+  email: "shivam1705of@gmail.com",
+  github: "https://github.com/shivam261",
+  linkedin: "https://www.linkedin.com/in/iamlio/",
+  leetcode: "https://leetcode.com/u/shivam1705of/",
 };
 
 export const workExperience = [
   {
-    company: "Chatbyte GmbH",
+    company: "Ramujan Universe",
     location: "Remote",
-    position: "Software Engineer",
-    period: "Mar 2024 - Present",
+    position: "High Performance Computing intern ",
+    period: "june 2024 - july 2024",
     achievements: [
-      "Designed and implemented business logic for AWS Lambdas using the Serverless Framework, forming the backbone of the application's functionality and ensuring seamless backend operations.",
-      "Built a comprehensive admin panel for managing content, user data, and analytics.",
-      "Contributed to the development and integration of a scalable CMS for managing blog content and other platform data.",
-      "Reduced database costs by introducing materialized views, optimizing query performance and resource usage.",
-      "Drove the integration of a custom affiliate marketing system, enabling seamless tracking and reporting of referrals and user activities.",
-      "Integrated Text-to-Speech (TTS) services for enhanced user experiences, optimizing both frontend and backend systems.",
-      "Collaborated with cross-functional teams to deliver high-quality features, actively reviewing pull requests to ensure code quality, adherence to standards, and efficient implementation.",
+      `Implemented OpenMPI based parallel algorithms to boost computational efficiency by 40% in HPC environments.Conducted comprehensive performance analysis and benchmarking of HPC systems using MPIP and Scalasca`,
     ],
   },
-  {
-    company: "DevCrew",
-    location: "Coimbatore, India",
-    position: "Software Engineer",
-    period: "Mar 2023 - Mar 2024",
-    achievements: [
-      "Developed responsive frontend components using React.js, enhancing user experience and app performance.",
-      "Optimized JavaScript solutions to improve load times and data-fetching efficiency.",
-    ],
-  },
-  {
-    company: "Phoenitags",
-    location: "Coimbatore, India",
-    position: "Software Engineering Intern",
-    period: "Jan 2023 - Mar 2023",
-    achievements: [
-      "Built interactive UIs with React.js, focusing on reusable components and performance optimization.",
-      "Implemented JavaScript-based features like user authentication and real-time updates.",
-    ],
-  },
+ 
 ];
 
 export const education = [
   {
-    institution: "Sri Krishna College of Engineering and Technology",
-    location: "Coimbatore, India",
-    degree: "B Tech Information Technology",
-    period: "Jun 2021 - Jun 2025",
+    institution: "Jaypee University of Engineering and Technology",
+    location: "Guna, India",
+
+    degree: "Bachelor of Technology Computer Science and Engineering",
+    period: "Aug 2021 - May 2025",
     achievements: [
-      "President of the Department of Information Technology",
-      "G20 student delegate",
-      "Organized multiple technical workshops and events",
-      "Represented my college in multiple national and international hackathons and won.",
+      "GPA: 8.7/10",
+      "Dean's List for Academic Excellence",
+      "Completed courses in Data Structures, Algorithms, Operating Systems, and Database Management Systems.",
+    ],
+   
+  },
+  {
+    institution: "Durga Public School",
+    location: "Solan ,Himachal Pradesh, India",
+    degree: "Higher Secondary School Certificate",
+    period: "Apr 2019 - May 2020",
+    achievements: [
+      "Percentage: 94.2%",
+      "Participated in various inter-school competitions and events.",
+    ],
+  },
+  {
+    institution: "Durga Public  School",
+    location: "Solan ,Himachal Pradesh, India",
+    degree: "Secondary School Certificate",
+    period: "Apr 2017 - May 2018",
+    achievements: [
+      "Percentage: 87.0%",
+      "Participated in various inter-school competitions and events.",
+      "Played Football at state level ",
+
     ],
   },
 ];
 export const skills = {
   programmingLanguages: [
-    "TypeScript",
-    "JavaScript",
-    "Python",
     "C++",
     "Java",
-    "Solidity",
+    "JavaScript",
+    "TypeScript",
+    "Python",
+
   ],
   frontendDevelopment: [
     "Nextjs",
     "Reactjs",
-    "React Native",
     "Shadcn UI",
     "Tailwind CSS",
+    "Material UI",
+    "Acertinity UI",
     "HTML",
     "CSS",
   ],
   backendDevelopment: ["Nodejs", "Expressjs"],
-  databaseAndStorage: ["PostgreSQL", "Drizzle (ORM)"],
-  cloudAndDevOps: ["AWS"],
+  databaseAndStorage: ["PostgreSQL", "MySQL", "MongoDB", "Redis"],
+  cloudAndDevOps: ["AWS", "Docker"],
   toolsAndServices: [
-    "Clerk (Auth)",
-    "Sanity (CMS)",
-    "Tinybird (analytics)",
+   "Git",
+    "GitHub",
+    "Postman",
+    "Grafana K6",
+   
+    "Nginx",
     "Zod",
-    "Sentry",
-    "Mixpanel",
-    "Trigger.dev",
+    
   ],
 };
 
 export const projects = [
   {
-    title: "Net Zero Carbon Emissions",
-    github: "https://github.com/rishikesh2003/Prodigi",
+    title: "Email Campaign",
+    github: "https://github.com/shivam261/EmailCampaign",
     description: [
-      "WiFi-RTT: Developed indoor occupancy tracking for energy optimization.",
-      "IoT Solutions: Implemented smart monitoring for energy efficiency and food waste reduction.",
-      "Real-Time Tracking: Designed systems to monitor carbon emissions and optimize resources.",
-      "Data-Driven Insights: Analyzed user patterns for adaptive energy and food management.",
-      "Reward Integration: Built QR-based green points system to incentivize eco-friendly actions.",
+      "Developed a robust email campaign application using Node.js and Express.",
+      "Implemented features like user authentication, email scheduling, and analytics.",
+      "Utilized MongoDB for data storage.",
+      "Designed a responsive UI with React and Tailwind CSS for seamless user experience.",
+      "Integrated third-party APIs for email delivery and tracking.",
     ],
   },
   {
-    title: "Mental Aarog",
-    github: "https://github.com/rishikesh2003/mental-aarog",
+    title: "School Manager",
+    github: "https://github.com/shivam261/schoolManagement",
     description: [
-      "A holistic mental health app leveraging AI and blockchain for early detection and personalized solutions for depression.",
-      "Features include social media analysis (ML-based sentiment tracking), PHQ-9 assessments, smartwatch integration for sleep and activity data, guided meditation, and smart suggestions for food, travel, music, and movies.",
-      "Developed a rewards system using MAG crypto token on Ethereum, enabling user engagement through in-app incentives.",
-      "Secure storage implemented via web3.storage, IPFS, and FileCoin.",
-      "Built with React, Supabase, Node.js, Flask, and Solidity, showcasing seamless integration of health tech and blockchain.",
+      "Developed a comprehensive school management system using MERN stack.",
+      "Implemented features like student enrollment, attendance tracking, and grade management.",
+      "Utilized JWT for secure authentication and authorization.",
+      "Designed a responsive UI with React and Shadcn for seamless user experience.",
+      "Integrated RESTful APIs for efficient data handling and retrieval.",
+      "Implemented role-based access control for teachers, students, and administrators.",
+    ],
+  },
+  {
+    title: "Video Conferencing App",
+    github: "https://github.com/shivam261/video_calling-.git",
+    description: [
+      "video conferencing app using WebRTC and Socket.io for real-time communication.",
+      "Implemented features like screen sharing, chat, and file sharing.",
+      "Utilized Node.js and Express for backend, ensuring secure and efficient data handling.",
+      "Employed MongoDB for user data management and Redis for session handling.",
+      "Designed a responsive UI with React and Tailwind CSS, ensuring cross-device compatibility.",
     ],
   },
 ];
 
 export const awards = [
   {
-    name: "IEEE YESIST12 Hackathon",
-    issuer: "IEEE",
+    name: "JUET Hackathon 2023",
+    issuer: "Jaypee University of Engineering and Technology",
     date: "Sep 2022",
-    type: "International",
+    type: "Hackathon",
     position: "Second Place",
   },
-  {
-    name: "Prodigi Cognizant Hackathon",
-    issuer: "Cognizant",
-    date: "Feb 2023",
-    type: "National",
-    position: "Second Runner-up",
-  },
-  {
-    name: "Cisco Thingqbator Hackathon",
-    issuer: "Cisco",
-    date: "Jan 2023",
-    type: "National",
-    position: "First Runner-up",
-  },
-  {
-    name: "Innovators Day",
-    issuer: "Sri Manakula Vinayagar Engineering College, Pondicherry",
-    date: "Sep 2022",
-    type: "National",
-    position: "First Prize",
-  },
-  {
-    name: "KG Hackfest'22",
-    issuer: "KGiSL Institute of Technology, Coimbatore",
-    date: "Sep 2022",
-    type: "National",
-    position: "Second Prize",
-  },
-  {
-    name: "Innohacks'22",
-    issuer: "Innogeeks, KIET Group of Institutions, New Delhi",
-    date: "May 2022",
-    type: "National",
-    position: "Second Runner-up",
-  },
-  {
-    name: "Hack @ SKCET",
-    issuer: "Hackclub SKCET, SKCET, Coimbatore",
-    date: "Feb 2022",
-    type: "National",
-    position: "Most Impactful Hack",
-  },
+ 
+ 
 ];

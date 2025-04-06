@@ -1,5 +1,5 @@
 import { personalInfo } from "@/lib/data";
-import { Mail, Github, MapPin, Linkedin } from "lucide-react";
+import { Mail, Github, MapPin, Linkedin,Code2Icon } from "lucide-react";
 import { motion } from "framer-motion";
 import MotionWrapper from "./MotionWrapper";
 
@@ -70,7 +70,7 @@ export default function HeroSection() {
                 variants={childVariants}
                 whileHover={{ scale: 1.05, color: "#4b5563" }}
               >
-                <Mail className="h-4 w-4 mr-2" />
+                <Mail className="h-4 w-4 mr-2 text-red-500" />
                 ✉️ {personalInfo.email}
               </motion.a>
 
@@ -82,7 +82,7 @@ export default function HeroSection() {
                 variants={childVariants}
                 whileHover={{ scale: 1.05, color: "#4b5563" }}
               >
-                <Github className="h-4 w-4 mr-2" />
+                <Github className="h-4 w-4 mr-2 " />
                 🌟 GitHub
               </motion.a>
 
@@ -94,8 +94,19 @@ export default function HeroSection() {
                 variants={childVariants}
                 whileHover={{ scale: 1.05, color: "#4b5563" }}
               >
-                <Linkedin className="h-4 w-4 mr-2" />
+                <Linkedin className="h-4 w-4 mr-2 text-blue-400" />
                 🔗 LinkedIn
+              </motion.a>
+              <motion.a
+                href={personalInfo.leetcode}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center text-sm text-muted-foreground hover:text-foreground transition-colors"
+                variants={childVariants}
+                whileHover={{ scale: 1.05, color: "#4b5563" }}
+              >
+                <Code2Icon className="h-4 w-4 mr-2 text-orange-400" />
+                🔗 Leetcode
               </motion.a>
             </motion.div>
           </div>
