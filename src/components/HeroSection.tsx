@@ -61,7 +61,7 @@ export default function HeroSection() {
                 whileHover={{ scale: 1.05, color: "#4b5563" }}
               >
                 <MapPin className="h-4 w-4 mr-2" />
-                📍 {personalInfo.location}
+                 {personalInfo.location}
               </motion.div>
 
               <motion.a
@@ -71,7 +71,7 @@ export default function HeroSection() {
                 whileHover={{ scale: 1.05, color: "#4b5563" }}
               >
                 <Mail className="h-4 w-4 mr-2 text-red-500" />
-                ✉️ {personalInfo.email}
+                 {personalInfo.email}
               </motion.a>
 
               <motion.a
@@ -83,7 +83,7 @@ export default function HeroSection() {
                 whileHover={{ scale: 1.05, color: "#4b5563" }}
               >
                 <Github className="h-4 w-4 mr-2 " />
-                🌟 GitHub
+                 GitHub
               </motion.a>
 
               <motion.a
@@ -95,7 +95,7 @@ export default function HeroSection() {
                 whileHover={{ scale: 1.05, color: "#4b5563" }}
               >
                 <Linkedin className="h-4 w-4 mr-2 text-blue-400" />
-                🔗 LinkedIn
+                 LinkedIn
               </motion.a>
               <motion.a
                 href={personalInfo.leetcode}
@@ -106,7 +106,7 @@ export default function HeroSection() {
                 whileHover={{ scale: 1.05, color: "#4b5563" }}
               >
                 <Code2Icon className="h-4 w-4 mr-2 text-orange-400" />
-                🔗 Leetcode
+                 Leetcode
               </motion.a>
             </motion.div>
           </div>
