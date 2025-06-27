@@ -107,7 +107,7 @@ export const projects = [
   {
   title: "Employee-Manager REST API",
   github: "https://github.com/shivam261/employee-manager-api", // Replace with actual if different
-  live: "https://employee-api-production.up.railway.app", // Replace with actual live link
+  live: "https://documenter.getpostman.com/view/33373776/2sB2xECp2v", // Replace with actual live link
   description: [
     "A scalable, production-ready REST API built with Flask to manage employees and their managers.",
     "Implements clean architecture with Factory, Repository, and Service design patterns for maintainability and modularity.",
