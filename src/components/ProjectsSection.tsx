@@ -57,8 +57,21 @@ export default function ProjectsSection() {
                     whileTap={{ scale: 0.95 }}
                   >
                     <Github className="h-4 w-4 mr-2 group-hover/link:rotate-12 transition-transform duration-300" />
-                    View on GitHub 🔗
+                    View on GitHub 🔗 
                   </motion.a>
+                 {project.live && (
+                <motion.a
+                  href={project.live}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center ml-5 text-sm text-muted-foreground hover:text-purple-500 transition-colors group/link pt-8"
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                >
+                    
+                       Live API 🔗
+                </motion.a>
+              )}
                 </CardFooter>
               </GlassCard>
             </MotionWrapper>

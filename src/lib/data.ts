@@ -17,6 +17,17 @@ export const workExperience = [
       `Implemented OpenMPI based parallel algorithms to boost computational efficiency by 40% in HPC environments.Conducted comprehensive performance analysis and benchmarking of HPC systems using MPIP and Scalasca`,
     ],
   },
+  {
+  company: "Knit",
+  location: "Remote",
+  position: "Software Engineering Intern",
+  period: "Aug 2024 - Apr 2025 · 9 months",
+  achievements: [
+    "Designed and developed core components and RESTful APIs using PostgreSQL, enhancing system reliability and scalability.",
+    "Implemented a Redis-based caching layer, reducing database load by 30% and improving page load times by 40%.",
+    "Built interactive and responsive web interfaces with React, boosting user engagement and front-end performance.",
+  ],
+}
  
 ];
 
@@ -29,7 +40,7 @@ export const education = [
     period: "Aug 2021 - May 2025",
     achievements: [
       "GPA: 8.7/10",
-      "Dean's List for Academic Excellence",
+      "Active member of the university's coding club, participating in various hackathons and coding competitions.",
       "Completed courses in Data Structures, Algorithms, Operating Systems, and Database Management Systems.",
     ],
    
@@ -64,6 +75,8 @@ export const skills = {
     "JavaScript",
     "TypeScript",
     "Python",
+    "Go",
+    "C"
 
   ],
   frontendDevelopment: [
@@ -76,7 +89,7 @@ export const skills = {
     "HTML",
     "CSS",
   ],
-  backendDevelopment: ["Nodejs", "Expressjs"],
+  backendDevelopment: ["Nodejs", "Expressjs","Flask","Gin"],
   databaseAndStorage: ["PostgreSQL", "MySQL", "MongoDB", "Redis"],
   cloudAndDevOps: ["AWS", "Docker"],
   toolsAndServices: [
@@ -84,7 +97,6 @@ export const skills = {
     "GitHub",
     "Postman",
     "Grafana K6",
-   
     "Nginx",
     "Zod",
     
@@ -92,6 +104,22 @@ export const skills = {
 };
 
 export const projects = [
+  {
+  title: "Employee-Manager REST API",
+  github: "https://github.com/shivam261/employee-manager-api", // Replace with actual if different
+  live: "https://employee-api-production.up.railway.app", // Replace with actual live link
+  description: [
+    "A scalable, production-ready REST API built with Flask to manage employees and their managers.",
+    "Implements clean architecture with Factory, Repository, and Service design patterns for maintainability and modularity.",
+    "Supports full CRUD operations, employee-manager assignment, and real-time Redis caching.",
+    "Enables rate limiting via Flask-Limiter with Redis backend to protect against abuse.",
+    "Utilizes PostgreSQL for persistent storage, SQLAlchemy for ORM, and Alembic for migrations.",
+    "Dockerized with multi-stage builds for efficient deployment; auto-runs DB migrations on startup.",
+    "Organized using modular Flask Blueprints and RESTful route structures for clarity and scalability.",
+  ],
+}
+
+  ,
   {
     title: "Email Campaign",
     github: "https://github.com/shivam261/EmailCampaign",
