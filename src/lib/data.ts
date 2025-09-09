@@ -9,6 +9,30 @@ export const personalInfo = {
 
 export const workExperience = [
   {
+  company: "L&T Infotech Mindtree (LTIMindtree) ",
+  location: "Onsite",
+  position: "Graduate Engineering Trainee",
+  period: "Aug 2025 - Present",
+  achievements: [
+    "Utilized various caching design patterns in backend APIs, optimizing performance by 40%",
+    "Deployed multithreading and asynchronous programming to improve performance and concurrency.",
+    "Architected and enhanced data models and queries in Database for efficient storage and retrieval.",
+  ],
+},{
+    company: "Moonwyre Software Private Limited ",
+    location: "Remote",
+    position: "Backend Developer Intern",
+    period: "July 2025 - Aug 2025",
+    achievements: [
+      `Optimized FastAPI endpoints with caching, reducing response time by 85% and delivering 7x faster performance.`,
+      "Applied System Performance Tuning by streamlining serialization to eliminate a 51% bottleneck, boosting overall processing efficiency by 30%.",
+      "Built asynchronous REST APIs using concurrency techniques, improving performance by 20%.",
+      "Migrated systems, reducing data validation time by 67% and enhancing cross-version compatibility.",
+      "Improved backend scalability by 30% by implementing LZ4-compressed data storage and efficient caching.",
+      "Reduced test suite runtime to 25% of original by optimizing Pytest workflows.",
+    ],
+  },
+  {
     company: "Ramujan Universe",
     location: "Remote",
     position: "High Performance Computing intern ",
@@ -16,18 +40,7 @@ export const workExperience = [
     achievements: [
       `Implemented OpenMPI based parallel algorithms to boost computational efficiency by 40% in HPC environments.Conducted comprehensive performance analysis and benchmarking of HPC systems using MPIP and Scalasca`,
     ],
-  },
-  {
-  company: "Knit",
-  location: "Remote",
-  position: "Software Engineering Intern",
-  period: "Aug 2024 - Apr 2025 · 9 months",
-  achievements: [
-    "Designed and developed core components and RESTful APIs using PostgreSQL, enhancing system reliability and scalability.",
-    "Implemented a Redis-based caching layer, reducing database load by 30% and improving page load times by 40%.",
-    "Built interactive and responsive web interfaces with React, boosting user engagement and front-end performance.",
-  ],
-}
+  }
  
 ];
 
