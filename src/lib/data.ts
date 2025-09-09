@@ -102,9 +102,9 @@ export const skills = {
     "HTML",
     "CSS",
   ],
-  backendDevelopment: ["Nodejs", "Expressjs","Flask","Gin"],
+  backendDevelopment: ["Nodejs", "Expressjs","Flask","Gin", "FastAPI"],
   databaseAndStorage: ["PostgreSQL", "MySQL", "MongoDB", "Redis"],
-  cloudAndDevOps: ["AWS", "Docker","Prometheus","Grafana"],
+  cloudAndDevOps: ["AWS", "Docker","Prometheus","Grafana","CI/CD"],
   toolsAndServices: [
    "Git",
     "GitHub",
